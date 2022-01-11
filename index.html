@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nodos HUB</title>
+
+    <!-- BoxIcons -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/e3a36ea18d.js" crossorigin="anonymous"></script>
+    
+    <!-- Google Fonts - Sen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+
+    
+    <!-- Estilos Nodos -->
+    <link rel="stylesheet" href="css/nodos-styles.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="https://nodoshub.com//public/assets/img/logo/logo.png" alt="">
+        </div>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#">Casos de éxitos</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+
+        <div class="info">
+            <h2>Somos expertos en soluciones tecnologicas</h2>
+            <p>Creamos soluciones sostenibles de impacto.</p>
+            <button>
+                Contactanos
+            </button>
+        </div>
+    </div>
+
+    <section class="home-servs" id="servicios">
+        <div class="home-servs-left">
+            <h3>Nuestros servicios</h3>
+            <ul>
+                <li>Innovamos en soluciones IT para que tu empresa cree impacto en el mercado.</li>
+                <li>Te acompañamos a lo largo de todo el proceso.</li>
+                <li>Desafiamos a tus competidores incorporando tecnologías en la cultura de tu empresa</li>
+            </ul>
+            <a href="#">
+                Conocé nuestros Servicios
+                <span>🡢</span>
+            </a>
+        </div> 
+
+        <div class="home-servs-right">
+            <div class="box-img">
+                <img src="img/analisis (2).png" alt="">
+                <div class="fondo-azul">
+                    <h4>Análisis</h4>
+                    <p>Detectamos la raíz de tu necesidad con documentación entregable</p>
+                </div>
+            </div>
+            <div class="box-img">
+                <img src="img/desarrollo-web (2).png" alt="">
+                <div class="fondo-azul">
+                    <h4>Desarrollo Web</h4>
+                    <p>Digitaliza procesos en la nube, ahorrando tiempos y costos.</p>
+                </div>
+            </div>
+            <div class="box-img">
+                <img src="img/students (2).png" alt="">
+                <div class="fondo-azul">
+                    <h4>Ed Tech</h4>
+                    <p>Plataforma integral de comunicación y gestión académica.</p>
+                </div>
+            </div>
+            <div class="box-img">
+                <img src="img/big-data (2).png" alt="">
+                <div class="fondo-azul">
+                    <h4>Big Data - IA</h4>
+                    <p>Análisis y procesamiento de grandes volumenes de datos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script>
+        // Scroll Down
+        window.addEventListener('scroll', () => {
+            const navMenu = document.querySelector('.header')
+            navMenu.classList.toggle('header-scroll', window.scrollY > 0)
+        })
+    </script>
+    
+</body>
+</html>
