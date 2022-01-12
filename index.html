@@ -7,7 +7,7 @@
     <title>Nodos HUB</title>
 
     <!-- BoxIcons -->
-    <!-- <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/e3a36ea18d.js" crossorigin="anonymous"></script>
@@ -22,6 +22,7 @@
     
     <!-- Estilos Nodos -->
     <link rel="stylesheet" href="css/nodos-styles.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
 
@@ -29,20 +30,28 @@
         <div class="logo">
             <img src="https://nodoshub.com//public/assets/img/logo/logo.png" alt="">
         </div>
-
+        
         <nav class="menu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#">Casos de éxitos</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#exitos">Casos de éxitos</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+
+        <div class="iconos">
+            <img src="img/menu.png" class="icon-active" alt="">
+            <img src="img/close.png" alt="">
+        </div>
     </header>
 
-    <div class="hero">
-        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="">
+    <section class="hero">
+        <picture>
+            <source srcset="img/office1.jpg" media="(min-width:768px)">
+            <img src="img/office2.jpg" alt="">
+        </picture>
 
         <div class="info">
             <h2>Somos expertos en soluciones tecnologicas</h2>
@@ -51,7 +60,7 @@
                 Contactanos
             </button>
         </div>
-    </div>
+    </section>
 
     <section class="home-servs" id="servicios">
         <div class="home-servs-left">
@@ -100,6 +109,187 @@
     </section>
 
 
+    <section class="testimonios" id="testimonios">
+        <h2>Testimonios</h2>
+        <div class="testim">
+            <div class="test-persona">
+                <div class="test-img">
+                    <img src="img/bird1.png" alt="">
+                </div>
+                <div class="test-persona-info">
+                    <h4>Nombre</h4>
+                    <p>Empresa</p>
+                </div>
+            </div>
+            <div class="test-frase">
+                <li>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam nisi condimentum sit turpis eget odio. Senectus dui id dignissim id sodales. Volutpat in venenatis tortor, integer. Blandit habitasse congue quis arcu sit eu. Egestas dui lacus ipsum sollicitudin lectus gravida. Dolor a nullam eu praesent sit velit, mus in. Pharetra sed duis velit gravida egestas malesuada. Orci, scelerisque laoreet tellus tempor eu cursus mauris rhoncus. 
+                </li>
+            </div>
+        </div>
+    </section>
+
+    <section class="cultura" id="cultura">
+        <div class="cultura-img">
+            <img src="img/cultura.png" alt="">
+        </div>
+        <div class="cultura-texto">
+            <h2>Cultura</h2>
+            <p>
+                Nodos SAS es una empresa que entabla relaciones de confianza y valor con sus clientes, pilares fundamentales para entregar un producto tecnológico de excelencia.
+                <br> <br>
+                Transformamos la cultura tecnológica de las organizaciones
+                con soluciones robustas y de calidad.
+            </p>
+        </div>
+    </section>
+    
+
+    <section class="experiencia">
+        <div class="exp-left">
+            <h3>En más de 15 años de experiencia</h3>
+            <p>Hemos realizado una gran cantidad de proyectos de diferente índole</p>
+        </div>
+        <div class="exp-right">
+            <div class="clientes">
+                <img src="img/clientes.png" alt="">
+                <div class="clientes-num">
+                    <h3>80+</h3>
+                    <p>Clientes</p>
+                </div>
+            </div>
+            <div class="gestion">
+                <img src="img/gestion.png" alt="">
+                <div class="gestion-texto">
+                    <h3>Gestión<h3>
+                    <p>Pública y Privada</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="equipo" id="equipo">
+        <h2>Te presentamos a nuestro equipo</h2>
+        <p>El que hace realidad tus ideas</p>
+
+        <div class="integrantes">
+            
+            <!-- Cards que están en la Notebook -->
+            
+        </div>
+    </section>
+
+
+
+    <section class="exitos" id="exitos">
+        <h2>Casos de éxito</h2>
+        <p>Te mostramos algunos de los trabajos que hemos desarrollado y han sido un éxito en el mercado</p>
+
+        <div class="casos">
+            <div class="cada-trabajo">
+                <div class="trabajo-img">
+                    <img src="img/exito1.png" alt="">
+                </div>
+                <h4>Origen San Juan</h4>
+                <p>Web gubernamental de incentivo al consumo provincial para productores y emprendedores de la provincia.</p>
+                <a href="#c">Conocé más
+                    <span>🡢</span>
+                </a>
+            </div>
+
+            <div class="cada-trabajo">
+                <div class="trabajo-img">
+                    <img src="img/exito2.png" alt="">
+                </div>
+                <h4>Nodos EdTech</h4>
+                <p>Gestión académica y comunicación escolar inmediata. Digitalizamos el colegio en la nube. Es la plataforma preferida de la educación privada.</p>
+                <a href="#c">Conocé más
+                    <span>🡢</span>
+                </a>
+            </div>
+        </div>
+       
+        <a href="#c">
+            Ver más casos de éxito
+            <span>🡢</span>
+        </a>
+    </section>
+
+
+    <section class="confian">
+        <h2>Clientes que confiaron en nosotros</h2>
+
+        <div class="logos">
+            <img src="img/logo-1.png" alt="">
+            <img src="img/logo-2.png" alt="">
+            <img src="img/logo-3.png" alt="">
+            <img src="img/logo-4.png" alt="">
+            <img src="img/logo-5.png" alt="">
+            <img src="img/logo-1.png" alt="">
+            <img src="img/logo-2.png" alt="">
+            <img src="img/logo-3.png" alt="">
+            <img src="img/logo-4.png" alt="">
+            <img src="img/logo-5.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="noticias" id="noticias">
+        <h2>Noticias</h2>
+        <p>Para que nos conozcan más dejamos las novedades que hay en la industria IT en las que formamos parte.</p>
+
+        <div class="cards-noticias">
+            <div class="card-noti">
+                <div class="noti-img">
+                    <img src="img/noti1.jpg" alt="">
+                </div>
+
+                <div class="noti-info">
+                    <h4>Título</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
+                    <a href="#c">
+                        Leer más
+                        <span>🡢</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-noti">
+                <div class="noti-img">
+                    <img src="img/noti2.jpg" alt="">
+                </div>
+
+                <div class="noti-info">
+                    <h4>Título</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
+                    <a href="#c">
+                        Leer más
+                        <span>🡢</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card-noti">
+                <div class="noti-img">
+                    <img src="img/noti3.jpg" alt="">
+                </div>
+
+                <div class="noti-info">
+                    <h4>Título</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue arcu sapien nisi ipsum elit arcu, amet donec ornare. Eu, aliquam ac condimentum imperdiet.</p>
+                    <a href="#c">
+                        Leer más
+                        <span>🡢</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
 
 
@@ -109,6 +299,18 @@
             const navMenu = document.querySelector('.header')
             navMenu.classList.toggle('header-scroll', window.scrollY > 0)
         })
+        
+        const menu = document.querySelector('.menu')
+        const botonMenu = document.querySelector('.iconos')
+        const iconosMenu = document.querySelectorAll('.iconos img')
+
+        botonMenu.addEventListener('click', () => {
+            iconosMenu[0].classList.toggle('icon-active')
+            iconosMenu[1].classList.toggle('icon-active')
+
+            menu.classList.toggle('menu-active')
+        })
+        
     </script>
     
 </body>

@@ -1,0 +1,368 @@
+@media (min-width: 991px) {
+    .header {
+        height: 110px;
+        padding: 0 80px !important;
+        justify-content: flex-start;
+    }
+    
+    .logo {
+        margin-right: 50px;
+    }
+    
+    .logo img {
+        height: 70px;
+    }
+    
+    .menu {
+        width: auto;
+        height: 100%;
+        padding: 0;
+        position: static;
+        background: transparent;
+        z-index: 3000;
+    }
+    
+    .menu ul {
+        height: 100%;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .menu ul li a {
+        padding: 0 20px;
+        color: #fff;
+    }
+    
+    
+    /* --- Menú después de scrollear --- */
+    
+    .header-scroll {
+        height: 80px;
+        padding: 0 80px;
+    }
+    
+    .header-scroll li a {
+        color: black !important;
+    }
+    
+    .header-scroll li {
+        line-height: 70px;
+    }
+
+    .header-scroll .logo img {
+        height: 65px;
+    }
+    
+
+    .iconos {
+        display: none;
+    }
+
+    .testimonios .testim .test-persona {
+        padding: 0 70px !important;
+        font-size: 20px !important;
+    }
+
+
+    .hero {
+        padding: 100px 60px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .hero .info {
+        text-align: start;
+    }
+
+    .hero .info h2 {
+        font-size: 45px !important;
+        font-weight: bold;
+    }
+    
+    .hero .info p {
+        margin: 10px 0;
+        color: var(--clr-trty);
+        font-size: 20px;
+    }
+    
+    .hero .info button {
+        padding: 10px 50px;
+        font-size: 20px;
+    }
+
+
+
+    .home-servs {
+        padding: 80px !important;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .home-servs-left {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .home-servs-right {
+        width: 50% !important;
+        grid-template-columns: repeat(4, 1fr) !important;
+        grid-auto-rows: 400px !important;
+        gap: 0 !important;
+        column-gap: 10px !important;
+        overflow: hidden;
+    }
+
+    .home-servs-right .box-img {
+        width: 100%;
+        height: 100% !important;
+        position: relative;
+    }
+    
+    .home-servs-right .box-img .fondo-azul {
+        display: none;
+    }
+    
+    .home-servs-right .box-img:hover .fondo-azul {
+        display: flex;
+    }
+
+    .home-servs-right .box-img .fondo-azul h4 {
+        font-size: 30px;
+    }
+
+
+    
+}
+
+
+
+
+@media (min-width: 850px) {
+    .experiencia {
+        padding: 40px 80px;
+    }
+    .experiencia .exp-left {
+        padding-right: 100px;
+    }
+    .experiencia h3 {
+        font-size: 40px;
+    }
+    
+    .experiencia  p {
+        font-size: 16px;
+    }
+
+    
+    .cultura .cultura-texto h2 {
+        font-size: 40px;
+    }
+    
+    .cultura .cultura-texto p {
+        font-size: 18px;
+    }
+
+
+
+    .equipo h2 {
+        font-size: 45px;
+    }
+    
+    .equipo p {
+        font-size: 20px;
+    }
+    
+    
+
+    .exitos {
+        padding: 80px !important;
+    }
+    
+    .exitos > h2 {
+        font-size: 45px;
+    }
+    
+    .exitos > p {
+        font-size: 20px;
+    }
+    
+    
+    
+    .confian {
+        padding: 80px !important;   
+    }
+    .confian h2 {
+        font-size: 35px;
+    }
+
+
+    .noticias {
+        padding: 50px 80px !important;
+    }
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .testimonios .testim {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .testimonios h2 {
+        font-size: 40px;
+        text-align: start;
+    }
+    
+    .testimonios .testim .test-persona {
+        width: 40%;
+        justify-content: start !important;
+    }
+
+    .testimonios .testim .test-frase {
+        width: 60%;
+    }
+
+    .testimonios .test-frase li {
+        font-size: 18px;
+    }
+
+    .testimonios .testim:nth-child(even) .test-persona {
+        justify-content: flex-start;
+        order: -1;
+    }
+    
+    .testimonios .testim:nth-child(odd) .test-persona {
+        justify-content: flex-end !important;
+        order: 1;
+    }
+    .experiencia {
+        flex-direction: row;
+    }
+    .experiencia > * {
+        width: 50%;
+    }
+    .experiencia .exp-left {
+        text-align: left;
+        padding-right: 10px;
+        gap: 30px;
+    }
+    .experiencia .exp-right > * {
+        justify-content: flex-start;
+    }
+
+
+    .equipo {
+        padding: 80px !important;
+    }
+
+
+
+    .exitos .casos {
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: row !important;
+        gap: 0;
+    }
+
+    .exitos .cada-trabajo {
+        width: 45%;
+    }
+
+
+
+
+    .noticias .cards-noticias {
+        flex-direction: row !important;
+    }
+
+    .noticias h2 {
+        font-size: 40px;
+        text-align: start;
+    }
+    
+    .noticias > p {
+        font-size: 18px;
+        text-align: start;
+    }
+
+    .noticias .card-noti .noti-img {
+        height: 150px;
+    }
+}
+
+
+
+
+@media (min-width: 680px) {
+    .cultura {
+        height: 415px;
+    }
+    .cultura .cultura-img {
+        width: 50%;
+        height: 100%;
+        display: block;
+    }
+    .cultura .cultura-texto {
+        width: 50%;
+        padding: 0 80px 0 40px;
+    }
+
+    .hero .info h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    .hero .info p {
+        margin: 10px 0;
+        color: var(--clr-trty);
+        font-size: 20px;
+    }
+    
+    .hero .info button {
+        padding: 10px 50px;
+        font-size: 20px;
+    }
+
+
+    .home-servs-right {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 200px;
+        gap: 10px;
+    }
+}
+
+
+
+
+@media (min-width: 600px) {
+    .testimonios {
+        width: 100%;
+        padding: 30px 80px;
+        background: #f4f5f7;
+    }
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    .header {
+        padding: 0 50px !important;
+    }
+    .experiencia .exp-right  {
+        flex-direction: row;
+    }
+    
+}
+
+
+
+
