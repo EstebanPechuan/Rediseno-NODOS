@@ -30,7 +30,7 @@ body {
     height: 60px;
     padding: 0 30px;
     position: fixed;
-    z-index: 1000;
+    z-index: 3000 !important;
     transition: 0.4s;
 
     display: flex;
@@ -546,7 +546,7 @@ body {
     color: var(--clr-scdy);
 }
 
-.equipo p {
+.equipo > p {
     font-size: 16px;
     font-weight: bold;
     color: var(--clr-4);
@@ -555,10 +555,128 @@ body {
 
 .equipo .integrantes {
     width: 100%;
+    padding: 10px 0;
     display: flex;
-    gap: 10px;
+    gap: 50px;
     touch-action: pan-x;
     scrollbar-width: none;
+    overflow-x: scroll;
+}
+
+.card2 {
+    flex: none;
+    width: 200px;
+    height: 260px;
+    border-radius: 5px;
+    transform: rotateY(0deg);
+    transition: 0.6s;
+    position: relative;
+    perspective: 2000px;
+}
+
+.card2 .front {
+    width: 100%;
+    height: 100%;
+    transform: rotateY(0deg);
+    transition: 0.6s;
+    backface-visibility: hidden;
+    background: #fff;
+    position: absolute;
+    z-index: 100;
+    border-radius: 5px;
+    overflow: hidden;
+    transform-style: preserve-3d;
+}
+
+.card2:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card2 .front .card-img {
+    width: 100%;
+    height: 150px;
+    margin: 0 auto !important;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+.card2 .back {
+    width: 100%;
+    height: 100% !important;
+    padding: 10px;
+    transition: 0.6s;
+    background: #286ADE;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #0004 !important;
+    transform-style: preserve-3d;
+}
+
+.card2:hover .back {
+    transform: rotateY(360deg);
+}
+
+.card2 .back .card-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin: 10px auto !important;
+    overflow: hidden;
+}
+
+.card2 .card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card2 .card-info {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: 0.4s;
+}
+
+.card2 .card-info h3 {
+    margin: auto;
+    color: #355894;
+}
+
+.card2 .card-info p {
+    margin: auto;
+    margin-top: 0;
+    font-size: 18px;
+    color: #286ADE;
+    transition: 0.4s;
+}
+
+.card2 .info-hover {
+    width: 100%;
+    text-align: center;
+    color: #fff !important;
+    user-select: none;
+    transition: 0.4s;
+}
+
+.card2 .card-text {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card2 .info-hover-puesto {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.card2 .info-hover i {
+    padding: 10px;
+    background: #fff4;
+    border-radius: 50%;
 }
 
 
@@ -736,4 +854,228 @@ body {
 .noticias .card-noti .noti-info a {
     color: var(--clr-5);
     font-size: 16px;
+}
+
+
+
+.contacto {
+    width: 100%;
+    padding: 50px 40px;
+}
+
+.contacto h2 {
+    font-size: 30px;
+    color: var(--clr-5);
+    text-align: center; 
+}
+
+.contacto p {
+    font-size: 16px;
+    color: var(--clr-4);
+    padding: 30px 0 50px;
+    text-align: center; 
+}
+
+.contacto .form-foto {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacto form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto .form-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto form .input-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.contacto .input-group input {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--clr-5);
+    box-shadow: 0 1px 1px #0004;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.contacto .input-group input[type="number"] {
+    appearance: textfield;
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+}
+
+.contacto .input-group label {
+    font-size: 18px;
+    color: var(--clr-4);
+    top: 20px;
+    left: 15px;
+    z-index: 2000;
+    position: absolute;
+    transition: 0.2s;
+    background: #fff;
+    padding: 0 10px;
+}
+
+.contacto .input-group.textarea {
+    width: 100%;
+}
+
+.contacto .input-group textarea {
+    width: 100% !important;
+    padding: 10px;
+    margin-top: 10px;
+    resize: none;
+    border: 1px solid var(--clr-5);
+    box-shadow: 0 1px 2px #0002;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.contacto input[type="submit"] {
+    width: 50%;
+    padding: 20px 0;
+    background: var(--clr-scdy);
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.contacto .input-group input:focus + label,
+.contacto .input-group textarea:focus + label {
+    top: -5px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.contacto .input-group input:not(:placeholder-shown) + label,
+.contacto .input-group textarea:not(:placeholder-shown) + label {
+    top: -5px;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+
+.contacto .contact-img {
+    width: 100% !important;
+}
+
+.contacto .contact-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+footer {
+    width: 100%;
+    background: var(--clr-prmy);
+    color: #fff;
+}
+
+.primer-box {
+    padding: 40px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-left {
+    width: 100%;
+}
+
+.footer-left img {
+    height: 70px;
+}
+
+.footer-left p {
+    font-weight: 300;
+}
+
+.footer-left .redes,
+.segundo-box .redes {
+    margin-top: 50px;
+    gap: 10px;
+}
+
+.footer-left .redes {
+    display: none;
+}
+
+.footer-left a,
+.segundo-box a {
+    width: 40px;
+    aspect-ratio: 1/1;
+    font-size: 20px;
+    border-radius: 50%;
+    font-family: 'Sen', sans-serif !important;
+    background: #fff4;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.footer-right .explorar,
+.footer-right .links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-right h4 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-right a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.segundo-box {
+    width: 100%;
+    padding: 20px;
+    background: #1b53b3;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.segundo-box .redes {
+    display: flex;
+    margin: 0;
 }
