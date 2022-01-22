@@ -3,6 +3,8 @@
 @import url('paginas/nuestro_equipo.css');
 @import url('paginas/servicios.css');
 @import url('paginas/exitos.css');
+@import url('paginas/noticias.css');
+@import url('paginas/plantilla-noticias.css');
 
 *,
 *::before,
@@ -319,20 +321,6 @@ body {
 
 .home-servs-right .box-img .fondo-azul p {
     font-size: 14px;
-}
-
-.home-servs-right:hover .box-img {
-    display: none;
-}
-
-.home-servs-right .box-img:hover {
-    display: block;
-    grid-column: 1/5;
-    grid-row: 1/2;
-}
-
-.home-servs-right .box-img:hover .fondo-azul {
-    display: flex;
 }
 
 
