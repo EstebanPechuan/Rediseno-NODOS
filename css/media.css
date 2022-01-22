@@ -172,6 +172,11 @@
 }
 
 
+@media (min-width: 890px) {
+    
+}
+
+
 
 
 @media (min-width: 850px) {
@@ -236,6 +241,8 @@
         padding: 50px 80px !important;
     }
 
+
+     
     
 }
 
@@ -374,8 +381,13 @@
         display: none;
         margin: 0;
     }
+
 }
 
+
+@media (min-width: 760px) {
+    
+}
 
 
 
