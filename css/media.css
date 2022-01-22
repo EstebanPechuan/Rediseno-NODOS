@@ -469,6 +469,16 @@
         grid-auto-rows: 200px;
         gap: 10px;
     }
+
+
+    .tecnologias {
+        width: 100%;
+        padding: 50px 90px;
+    }
+    
+    .cajas-tecnologias {
+        flex-direction: row;
+    }
 }
 
 
