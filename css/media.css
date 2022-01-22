@@ -215,15 +215,18 @@
     
     
 
-    .exitos {
+    .exitos,
+    .seccion-exitos {
         padding: 80px !important;
     }
     
-    .exitos > h2 {
+    .exitos > h2,
+    .seccion-exitos > h2 {
         font-size: 45px;
     }
     
-    .exitos > p {
+    .exitos > p,
+    .seccion-exitos > p {
         font-size: 20px;
     }
     
@@ -307,14 +310,17 @@
 
 
 
-    .exitos .casos {
+    .exitos .casos,
+    .seccion-exitos .casos {
         justify-content: space-between;
         align-items: flex-start;
+        flex-wrap: wrap;
         flex-direction: row !important;
         gap: 0;
     }
 
-    .exitos .cada-trabajo {
+    .exitos .cada-trabajo,
+    .seccion-exitos .cada-trabajo {
         width: 45%;
     }
 
