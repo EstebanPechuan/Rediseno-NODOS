@@ -78,7 +78,7 @@
 }
 
 .card-individual {
-    width: 310px;
+    width: 100%;
     min-width: 25%;
     height: 320px;
     overflow: hidden;

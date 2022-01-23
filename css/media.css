@@ -425,12 +425,6 @@
 }
 
 
-@media (min-width: 760px) {
-    
-}
-
-
-
 @media (min-width: 680px) {
     .cultura {
         height: 415px;
@@ -478,6 +472,11 @@
     
     .cajas-tecnologias {
         flex-direction: row;
+    }
+
+    .card-individual {
+        width: 310px !important;
+        min-width: 25%;
     }
 }
 
