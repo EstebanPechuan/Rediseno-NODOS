@@ -231,6 +231,10 @@ body {
     z-index: 500;
 }
 
+.hero .info button a {
+    color: #fff;
+}
+
 
 
 /* --- SERVICIOS - SECCION HOME --- */
