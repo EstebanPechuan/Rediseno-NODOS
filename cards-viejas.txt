@@ -1,0 +1,223 @@
+<section class="equipo" id="equipo">
+        <h2>Te presentamos a nuestro equipo</h2>
+        <p>El que hace realidad tus ideas</p>
+
+        <div class="integrantes">
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card2">
+                <div class="front">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h3>Nombre</h3>
+                        <p class="card-puesto">Puesto</p>
+                    </div>
+                </div>
+                <div class="back">
+                    <div class="card-img">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3ed5875826807.5c582fcb86f96.jpg" alt="">
+                    </div>
+                    <div class="info-hover">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+                        <p class="info-hover-puesto">Puesto</p>
+                        <!-- <i class='bx bxl-linkedin'></i> -->
+                        <i class='bx'>㏑</i>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>

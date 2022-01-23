@@ -73,13 +73,13 @@
     width: 100%;
     padding: 0 40px 50px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
 .card-individual {
-    width: 25%;
-    min-width: 310px;
+    width: 310px;
+    min-width: 25%;
     height: 320px;
     overflow: hidden;
     position: relative;
