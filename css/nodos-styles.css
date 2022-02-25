@@ -232,7 +232,7 @@ body {
 }
 
 .hero .info button a {
-    color: #fff;
+    color: #fff !important;
 }
 
 

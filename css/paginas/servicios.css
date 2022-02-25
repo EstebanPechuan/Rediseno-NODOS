@@ -88,7 +88,7 @@
 }
 
 /* The circles on the timeline */
-.timeline-cont::after {
+/* .timeline-cont::after {
     content: '';
     position: absolute;
     width: 50px;
@@ -102,28 +102,90 @@
     background-position: center;
     background-size: 25px;
     background-repeat: no-repeat;
+} */
+
+.timeline-icon {
+    display: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid var(--clr-prmy);
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    z-index: 1;
+    background-color: #fff;
+    background-position: center center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+}
+
+.left .timeline-icon {
+    right: -23px;
+}
+
+.right .timeline-icon {
+    left: -27px;
 }
 
 /* Content inside the circles */
-.timeline-cont.timeline-cont:nth-child(1)::after {
+.ico1 {
+    display: block;
     background-image: url('../../img/iconos-servicios/ico1.svg');
 }
 
-.timeline-cont.timeline-cont:nth-child(2)::after {
+.ico2 {
     background-image: url('../../img/iconos-servicios/ico2.svg');
 }
 
-.timeline-cont.timeline-cont:nth-child(3)::after {
+.ico3 {
     background-image: url('../../img/iconos-servicios/ico3.svg');
 }
 
-.timeline-cont.timeline-cont:nth-child(4)::after {
+.ico4 {
     background-image: url('../../img/iconos-servicios/ico4.svg');
 }
 
-.timeline-cont.timeline-cont:nth-child(5)::after {
+.ico5 {
     background-image: url('../../img/iconos-servicios/ico5.svg');
 }
+
+.anim-on {
+    display: block !important;
+    animation: icons;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+    transition: 0.7s;
+}
+
+.anim-off {
+    display: block !important;
+    animation: icons;
+    animation-duration: 0.7s;
+    animation-direction: reverse;
+    animation-fill-mode: forwards;
+    transition: 0.7s;
+}
+
+
+/* Animción de entrada de iconos */
+@keyframes icons {
+    0% {
+        transform: translateY(-50%) scale(0);
+        background: var(--clr-prmy);
+        background-size: 0px;
+    }
+
+    60% {
+        background: var(--clr-prmy);
+    }
+
+    100% {
+        transform: translateY(-50%) scale(1);
+        background-size: 25px;
+    }
+}
+
 
 /* Place the container to the left */
 .left {

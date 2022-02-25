@@ -124,12 +124,14 @@
     color: #0009;
 }
 
-.clr-blue {
-    color: var(--clr-prmy);
-}
-.clr-orange {
+.card-individual:nth-child(even) .card-ind-info h3 {
     color: var(--clr-scdy);
 }
+
+.card-individual:nth-child(odd) .card-ind-info h3 {
+    color: var(--clr-prmy);
+}
+
 
 .card-individual:hover .card-ind-img {
     height: 100%;
